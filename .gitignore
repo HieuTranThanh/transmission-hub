@@ -1,0 +1,54 @@
+# dependencies
+node_modules
+
+# build output
+dist
+dist-ssr
+*.tsbuildinfo
+
+# env
+.env
+.env.local
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# logs
+*.log
+npm-debug.log*
+
+# data files (large binary, managed outside git)
+*.xlsx
+
+# archived import files (xlsx + saved topology html) — produced at runtime
+imported/
+
+# supabase CLI scratch dir
+supabase/.temp/
+
+# python
+__pycache__/
+*.pyc
+
+# Claude Code internal
+.claude/
+claude-task/
+
+# local scripts & tools (not part of web build)
+deploy.bat
+start-dev.bat
+# docs & internal references
+docs/
+
+# data-import scripts (Node/ts-node)
+scripts/
+
+# env example
+.env.example
